@@ -1,0 +1,68 @@
+var saySomething = function(whatToSay) {
+  alert(whatToSay);
+};
+
+var add = function(number1, number2) {
+  return number1 + number2;
+}
+
+saySomething("Meow!");
+
+var result = add(3, 5);
+var outputText = "The sum is " + result + ".";
+saySomething(outputText);
+
+saySomething("The sum is " + add(3,5) + ".");
+
+/* Take somebody's name and say a greeting to them; */
+var name = prompt("What's yo name?");
+alert("Sup, " + name + "?");
+ 
+/* Write a function to subtract two numbers; */
+var subtract = function(number1, number2) {
+  return number1 - number2;
+}
+ 
+saySomething("The difference is " + subtract(5,3) + ".");
+ 
+ 
+ /* multiply two numbers; */
+ var multiply = function(number1,number2) {
+   return number1 * number2;
+}
+ 
+ saySomething("The product is " + multiply(3,5) + ".")
+ 
+ 
+ /* multiply three numbers; */
+ var threeTimes = function(number1, number2, number3) {
+   return number1 * number2 * number3;
+}
+ 
+ saySomething("The product is " + threeTimes(3,5,5) + ".")
+  
+ /* divide two numbers; */ 
+ var divide = function(number1, number2) {
+   return number1 / number2;
+}
+  
+saySomething("The answer is " + divide(6,2) + ".");
+
+/* find the remainder of two numbers; */
+var remainder = function(number1, number2) {
+  return number1 % number2;
+}
+  
+saySomething("The remainder is " + remainder(47629432,463) + ".");
+
+
+/* Prompt the user to enter their age, another prompt to enter their name and another prompt to enter their favorite food. Pass these as arguments to a function that returns a sentence combining all of this information. Then display the returned string with an alert. */
+var name = prompt("Who you?");
+var age = prompt("How old you be?");
+var food = prompt("What you eat?");
+var saying = function() { 
+  var sentence = "Hey, " + name + ", you are " + age + " olds and your favorite thing to eat is " + food + ".";
+  return sentence;
+}
+
+saySomething(saying());
