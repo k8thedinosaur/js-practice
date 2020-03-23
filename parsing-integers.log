@@ -1,0 +1,27 @@
+var age = prompt("How old you be?");
+undefined
+goofyAge = age + age;
+"3232"
+var nonGoofyAge = prompt("How old you really be?");
+undefined
+var nonGoofyAge = parseInt(nonGoofyAge);
+undefined
+age+age;
+"3232"
+nonGoofyAge+nonGoofyAge;
+64
+var realAge = parseint(prompt("No but really. How old?");
+VM3134:1 Uncaught SyntaxError: missing ) after argument list
+var realAge = parseint(prompt("No but really. How old?"));
+VM3139:1 Uncaught ReferenceError: parseint is not defined
+    at <anonymous>:1:15
+(anonymous) @ VM3139:1
+var realAge = parseInt(prompt("No but really. How old?"));
+undefined
+realAge+realAge;
+64
+var specificAge = parseFloat(prompt("How old in decimals?"));
+undefined
+console.log(specificAge);
+VM3346:1 32.45
+undefined
