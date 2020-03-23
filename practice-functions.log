@@ -1,0 +1,85 @@
+alert("Hello, Mr Kitty!");
+undefined
+prompt("How many manys does Mr Kitty weigh?");
+"ALL"
+var catFats = prompt("How many fats is Mr Kitty?");
+undefined
+catFats;
+"MANY"
+prompt("type something in lowercase:");
+null
+prompt("type something in lowercase:").toUpperCase();
+"THAT ESCALATED QUICKLY"
+confirm("Is Mr Kitty really that many fats?");
+true
+confirm("Is Mr Kitty really that many fats?");
+false
+alert("Warning, Mr Kitty incoming!");
+undefined
+confirm("Did Mr Kitty crush the entire city with his immensity?");
+true
+var kittyFats = prompt("How many weights does Mr Kitty be?");
+undefined
+var unit = prompt("What unit of measurement are you using?");
+undefined
+unit.toUpperCase();
+"WEIGHTS"
+kittyFats.parseInt();
+VM1175:1 Uncaught TypeError: kittyFats.parseInt is not a function
+    at <anonymous>:1:11
+(anonymous) @ VM1175:1
+kittyFats;
+"72347238428"
+kittyfats = kittyFats.parseInt();
+VM1216:1 Uncaught TypeError: kittyFats.parseInt is not a function
+    at <anonymous>:1:23
+(anonymous) @ VM1216:1
+unit = unit.toUpperCase();
+"WEIGHTS"
+kittyfats = kittyFats.number();
+VM1303:1 Uncaught TypeError: kittyFats.number is not a function
+    at <anonymous>:1:23
+(anonymous) @ VM1303:1
+kittyFats = parseInt(kittyFats);
+72347238428
+var theWeight = kittyFats.concat(" ").concat(unit);
+VM1500:1 Uncaught TypeError: kittyFats.concat is not a function
+    at <anonymous>:1:27
+(anonymous) @ VM1500:1
+var theWeight = kittyFats + " " + unit;
+undefined
+theWeight;
+"72347238428 WEIGHTS"
+var food1 = prompt("What did you eat for breakfast today?"), var food2 = prompt("What else?"), var food3 = prompt("Anything else?");
+VM1861:1 Uncaught SyntaxError: Unexpected token 'var'
+var food1 = prompt("What did you eat for breakfast today?") var food2 = prompt("What else?") var food3 = prompt("Anything else?");
+VM1867:1 Uncaught SyntaxError: Unexpected token 'var'
+var food1 = prompt("What did you eat for breakfast today?"); var food2 = prompt("What else?"); var food3 = prompt("Anything else?");
+undefined
+halfBreakfast = food1.concat(" " + food2);
+"turkey bacon eggie"
+fullBreakfast = halfBreakfast.concat(" " + food3;
+VM2106:1 Uncaught SyntaxError: missing ) after argument list
+fullBreakfast = halfBreakfast.concat(" " + food3);
+"turkey bacon eggie beanut putter jelly toast"
+fullBreakfast.toUpperCase = alert("NOW SHOUT IT");
+undefined
+fullBreakfast.toUpperCase;
+ƒ toUpperCase() { [native code] }
+fullBreakfast.toUpperCase() = alert("NOW SHOUT IT");
+VM2275:1 Uncaught ReferenceError: Invalid left-hand side in assignment
+    at <anonymous>:1:15
+(anonymous) @ VM2275:1
+fullBreakfast = fullBreakfast.toUpperCase.alert("NOW SHOUT IT");
+VM2399:1 Uncaught TypeError: fullBreakfast.toUpperCase.alert is not a function
+    at <anonymous>:1:43
+(anonymous) @ VM2399:1
+fullBreakfast = fullBreakfast.toUpperCase().alert("NOW SHOUT IT");
+VM2409:1 Uncaught TypeError: fullBreakfast.toUpperCase(...).alert is not a function
+    at <anonymous>:1:45
+(anonymous) @ VM2409:1
+fullBreakfast = fullBreakfast.toUpperCase(); alert("MNOW SHOUT IT!!!!11");
+undefined
+console.log(fullBreakfast);
+VM2564:1 TURKEY BACON EGGIE BEANUT PUTTER JELLY TOAST
+undefined
