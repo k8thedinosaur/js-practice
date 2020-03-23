@@ -1,0 +1,38 @@
+function sayHi() {
+alert("Hello from Planet Catbutt!");
+};
+undefined
+sayHi();
+undefined
+function saySomething() {
+alert(whatToSay);
+}
+undefined
+saySomething("Ifyouseesomethingsaysomething~");
+VM3604:2 Uncaught ReferenceError: whatToSay is not defined
+    at saySomething (<anonymous>:2:7)
+    at <anonymous>:1:1
+saySomething @ VM3604:2
+(anonymous) @ VM3699:1
+function saySomething(whatToSay) {
+alert(whatToSay);
+}
+undefined
+saySomething("Ifyouseesomethingsaysomething~");
+undefined
+function add(number1 + number2) {
+return number1 + number2;
+}
+VM3935:1 Uncaught SyntaxError: Unexpected token '+'
+function add(number1, number2) {
+return number1 + number2;
+}
+undefined
+add(3,4);
+7
+var add = function(number1, number2) {return number1+number2);
+VM4148:1 Uncaught SyntaxError: Unexpected token ')'
+var add = function(number1, number2) {return number1+number2};
+undefined
+add(4,5);
+9
